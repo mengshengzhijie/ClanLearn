@@ -143,6 +143,19 @@ bianliang/fast:
 .PHONY : 24_9_10-1/fast
 
 #=============================================================================
+# Target rules for targets named 24_9_14-1
+
+# Build rule for target.
+24_9_14-1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 24_9_14-1
+.PHONY : 24_9_14-1
+
+# fast build rule for target.
+24_9_14-1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_14-1.dir/build.make CMakeFiles/24_9_14-1.dir/build
+.PHONY : 24_9_14-1/fast
+
+#=============================================================================
 # Target rules for targets named 24_9_3-1
 
 # Build rule for target.
@@ -371,6 +384,30 @@ src/learn/24_9_10-1.s: src/learn/24_9_10-1.c.s
 src/learn/24_9_10-1.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_10-1.dir/build.make CMakeFiles/24_9_10-1.dir/src/learn/24_9_10-1.c.s
 .PHONY : src/learn/24_9_10-1.c.s
+
+src/learn/24_9_14-1.o: src/learn/24_9_14-1.c.o
+.PHONY : src/learn/24_9_14-1.o
+
+# target to build an object file
+src/learn/24_9_14-1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_14-1.dir/build.make CMakeFiles/24_9_14-1.dir/src/learn/24_9_14-1.c.o
+.PHONY : src/learn/24_9_14-1.c.o
+
+src/learn/24_9_14-1.i: src/learn/24_9_14-1.c.i
+.PHONY : src/learn/24_9_14-1.i
+
+# target to preprocess a source file
+src/learn/24_9_14-1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_14-1.dir/build.make CMakeFiles/24_9_14-1.dir/src/learn/24_9_14-1.c.i
+.PHONY : src/learn/24_9_14-1.c.i
+
+src/learn/24_9_14-1.s: src/learn/24_9_14-1.c.s
+.PHONY : src/learn/24_9_14-1.s
+
+# target to generate assembly for a file
+src/learn/24_9_14-1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_14-1.dir/build.make CMakeFiles/24_9_14-1.dir/src/learn/24_9_14-1.c.s
+.PHONY : src/learn/24_9_14-1.c.s
 
 src/learn/24_9_3-1.o: src/learn/24_9_3-1.c.o
 .PHONY : src/learn/24_9_3-1.o
@@ -717,6 +754,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 24_9_10-1"
+	@echo "... 24_9_14-1"
 	@echo "... 24_9_3-1"
 	@echo "... 24_9_4-1"
 	@echo "... 24_9_4-2"
@@ -738,6 +776,9 @@ help:
 	@echo "... src/learn/24_9_10-1.o"
 	@echo "... src/learn/24_9_10-1.i"
 	@echo "... src/learn/24_9_10-1.s"
+	@echo "... src/learn/24_9_14-1.o"
+	@echo "... src/learn/24_9_14-1.i"
+	@echo "... src/learn/24_9_14-1.s"
 	@echo "... src/learn/24_9_3-1.o"
 	@echo "... src/learn/24_9_3-1.i"
 	@echo "... src/learn/24_9_3-1.s"
