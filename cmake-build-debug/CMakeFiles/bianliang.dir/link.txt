@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/bianliang.dir/src/C/bianliang.c.o -o bianliang
