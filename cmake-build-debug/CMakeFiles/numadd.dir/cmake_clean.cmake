@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/numadd.dir/src/learn/numadd.c.obj"
-  "CMakeFiles/numadd.dir/src/learn/numadd.c.obj.d"
-  "libnumadd.dll.a"
-  "numadd.exe"
-  "numadd.exe.manifest"
+  "CMakeFiles/numadd.dir/src/learn/numadd.c.o"
+  "CMakeFiles/numadd.dir/src/learn/numadd.c.o.d"
+  "numadd"
   "numadd.pdb"
 )
 

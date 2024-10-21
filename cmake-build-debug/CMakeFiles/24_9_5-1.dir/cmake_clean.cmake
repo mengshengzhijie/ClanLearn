@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "24_9_5-1.exe"
-  "24_9_5-1.exe.manifest"
+  "24_9_5-1"
   "24_9_5-1.pdb"
-  "CMakeFiles/24_9_5-1.dir/src/learn/24_9_5-1.c.obj"
-  "CMakeFiles/24_9_5-1.dir/src/learn/24_9_5-1.c.obj.d"
-  "lib24_9_5-1.dll.a"
+  "CMakeFiles/24_9_5-1.dir/src/learn/24_9_5-1.c.o"
+  "CMakeFiles/24_9_5-1.dir/src/learn/24_9_5-1.c.o.d"
 )
 
 # Per-language clean rules from dependency scanning.
