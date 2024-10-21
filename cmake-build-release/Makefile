@@ -117,19 +117,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named bianliang
-
-# Build rule for target.
-bianliang: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bianliang
-.PHONY : bianliang
-
-# fast build rule for target.
-bianliang/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bianliang.dir/build.make CMakeFiles/bianliang.dir/build
-.PHONY : bianliang/fast
-
-#=============================================================================
 # Target rules for targets named 24_10_21-1
 
 # Build rule for target.
@@ -154,6 +141,19 @@ bianliang/fast:
 24_10_21-2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_10_21-2.dir/build.make CMakeFiles/24_10_21-2.dir/build
 .PHONY : 24_10_21-2/fast
+
+#=============================================================================
+# Target rules for targets named 24_10_21-3
+
+# Build rule for target.
+24_10_21-3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 24_10_21-3
+.PHONY : 24_10_21-3
+
+# fast build rule for target.
+24_10_21-3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_10_21-3.dir/build.make CMakeFiles/24_10_21-3.dir/build
+.PHONY : 24_10_21-3/fast
 
 #=============================================================================
 # Target rules for targets named 24_10_8-1
@@ -402,30 +402,6 @@ numadd/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numadd.dir/build.make CMakeFiles/numadd.dir/build
 .PHONY : numadd/fast
 
-src/C/bianliang.o: src/C/bianliang.c.o
-.PHONY : src/C/bianliang.o
-
-# target to build an object file
-src/C/bianliang.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bianliang.dir/build.make CMakeFiles/bianliang.dir/src/C/bianliang.c.o
-.PHONY : src/C/bianliang.c.o
-
-src/C/bianliang.i: src/C/bianliang.c.i
-.PHONY : src/C/bianliang.i
-
-# target to preprocess a source file
-src/C/bianliang.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bianliang.dir/build.make CMakeFiles/bianliang.dir/src/C/bianliang.c.i
-.PHONY : src/C/bianliang.c.i
-
-src/C/bianliang.s: src/C/bianliang.c.s
-.PHONY : src/C/bianliang.s
-
-# target to generate assembly for a file
-src/C/bianliang.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bianliang.dir/build.make CMakeFiles/bianliang.dir/src/C/bianliang.c.s
-.PHONY : src/C/bianliang.c.s
-
 src/learn/24_10_21-1.o: src/learn/24_10_21-1.c.o
 .PHONY : src/learn/24_10_21-1.o
 
@@ -473,6 +449,30 @@ src/learn/24_10_21-2.s: src/learn/24_10_21-2.c.s
 src/learn/24_10_21-2.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_10_21-2.dir/build.make CMakeFiles/24_10_21-2.dir/src/learn/24_10_21-2.c.s
 .PHONY : src/learn/24_10_21-2.c.s
+
+src/learn/24_10_21-3.o: src/learn/24_10_21-3.c.o
+.PHONY : src/learn/24_10_21-3.o
+
+# target to build an object file
+src/learn/24_10_21-3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_10_21-3.dir/build.make CMakeFiles/24_10_21-3.dir/src/learn/24_10_21-3.c.o
+.PHONY : src/learn/24_10_21-3.c.o
+
+src/learn/24_10_21-3.i: src/learn/24_10_21-3.c.i
+.PHONY : src/learn/24_10_21-3.i
+
+# target to preprocess a source file
+src/learn/24_10_21-3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_10_21-3.dir/build.make CMakeFiles/24_10_21-3.dir/src/learn/24_10_21-3.c.i
+.PHONY : src/learn/24_10_21-3.c.i
+
+src/learn/24_10_21-3.s: src/learn/24_10_21-3.c.s
+.PHONY : src/learn/24_10_21-3.s
+
+# target to generate assembly for a file
+src/learn/24_10_21-3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_10_21-3.dir/build.make CMakeFiles/24_10_21-3.dir/src/learn/24_10_21-3.c.s
+.PHONY : src/learn/24_10_21-3.c.s
 
 src/learn/24_10_8-1.o: src/learn/24_10_8-1.c.o
 .PHONY : src/learn/24_10_8-1.o
@@ -940,6 +940,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... 24_10_21-1"
 	@echo "... 24_10_21-2"
+	@echo "... 24_10_21-3"
 	@echo "... 24_10_8-1"
 	@echo "... 24_9_10-1"
 	@echo "... 24_9_14-1"
@@ -958,17 +959,16 @@ help:
 	@echo "... C"
 	@echo "... Cc"
 	@echo "... P1_2"
-	@echo "... bianliang"
 	@echo "... numadd"
-	@echo "... src/C/bianliang.o"
-	@echo "... src/C/bianliang.i"
-	@echo "... src/C/bianliang.s"
 	@echo "... src/learn/24_10_21-1.o"
 	@echo "... src/learn/24_10_21-1.i"
 	@echo "... src/learn/24_10_21-1.s"
 	@echo "... src/learn/24_10_21-2.o"
 	@echo "... src/learn/24_10_21-2.i"
 	@echo "... src/learn/24_10_21-2.s"
+	@echo "... src/learn/24_10_21-3.o"
+	@echo "... src/learn/24_10_21-3.i"
+	@echo "... src/learn/24_10_21-3.s"
 	@echo "... src/learn/24_10_8-1.o"
 	@echo "... src/learn/24_10_8-1.i"
 	@echo "... src/learn/24_10_8-1.s"
