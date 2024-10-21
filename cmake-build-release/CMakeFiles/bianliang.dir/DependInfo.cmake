@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/xuxiao/git/C/src/C/bianliang.c" "CMakeFiles/bianliang.dir/src/C/bianliang.c.o" "gcc" "CMakeFiles/bianliang.dir/src/C/bianliang.c.o.d"
+  "D:/Users/MengShengZhiJie/cLangLearn/src/C/bianliang.c" "CMakeFiles/bianliang.dir/src/C/bianliang.c.obj" "gcc" "CMakeFiles/bianliang.dir/src/C/bianliang.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

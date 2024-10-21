@@ -1,1 +1,3 @@
-/usr/bin/cc -g CMakeFiles/numadd.dir/src/learn/numadd.c.o -o numadd
+D:\jetbrains\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\numadd.dir/objects.a
+D:\jetbrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\numadd.dir/objects.a @CMakeFiles\numadd.dir\objects1.rsp
+D:\jetbrains\CLion\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\numadd.dir/objects.a -Wl,--no-whole-archive -o numadd.exe -Wl,--out-implib,libnumadd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\numadd.dir\linkLibs.rsp

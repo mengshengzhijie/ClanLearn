@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/bianliang.dir/src/C/bianliang.c.o"
-  "CMakeFiles/bianliang.dir/src/C/bianliang.c.o.d"
-  "bianliang"
+  "CMakeFiles/bianliang.dir/src/C/bianliang.c.obj"
+  "CMakeFiles/bianliang.dir/src/C/bianliang.c.obj.d"
+  "bianliang.exe"
+  "bianliang.exe.manifest"
   "bianliang.pdb"
+  "libbianliang.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
