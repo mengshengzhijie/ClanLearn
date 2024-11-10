@@ -18,8 +18,10 @@ int main() {
     int left = 0; // 左边界
     int right = sz - 1; // 右边界
 
-    while (left <= right) {
-        int mid = (left + right) / 2; // 中间值下标
+    while (left <= right)
+    {
+//        int mid = (left + right) / 2; // 中间值下标
+        int mid = left + (right - left) / 2;
         if (arr[mid] < k) {
             left = mid + 1;
         } else if (arr [mid] > k) {
