@@ -26,22 +26,43 @@
 // }
 
 //v2
-int main () {
-    int i = 0;
-    int cont = 0;
-    for (i = 100; i <= 200; i++) {
-        int flag = 0;
-        int j = 0;
-        for (j = 2; j <= sqrt(i); j++) {
-            if (i % j == 0) {
-                flag = 1;
-                break;
-            }
-        }
-        if (flag == 0) {
-            printf("%d\n", i);
-            cont++;
+// int main () {
+//     int i = 0;
+//     int cont = 0;
+//     for (i = 101; i <= 200; i+=2) {
+//         int flag = 0;
+//         int j = 0;
+//         for (j = 2; j <= sqrt(i); j++) {
+//             if (i % j == 0) {
+//                 flag = 1;
+//                 break;
+//             }
+//         }
+//         if (flag == 0) {
+//             printf("%d\n", i);
+//             cont++;
+//         }
+//     }
+//     printf("%d",cont);
+// }
+
+int is_prime(int n) {
+    int j = 0;
+    for (j = 2; j <= sqrt(n); j++) {
+        if (n % j == 0) {
+            return 0;
         }
     }
-    printf("%d",cont);
+    return 1;
+}
+int main() {
+    int i = 0;
+    int count = 0;
+    for (i = 100; i <= 200; i++) {
+       if(is_prime(i)) {
+           printf("%d\n",i);
+           count++;
+       }
+    }
+    printf("%d\n",count);
 }

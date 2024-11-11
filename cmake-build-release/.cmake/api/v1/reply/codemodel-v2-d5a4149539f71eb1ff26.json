@@ -1,0 +1,294 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "C",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "24_10_21-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-24_10_21-1-Release-e10cd41a4484643e429f.json",
+					"name" : "24_10_21-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "24_10_21-2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-24_10_21-2-Release-078b3b45897bfa6d4322.json",
+					"name" : "24_10_21-2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "24_10_21-3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-24_10_21-3-Release-926047a4dd8752ff3208.json",
+					"name" : "24_10_21-3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "24_10_8-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-24_10_8-1-Release-5f05260975b9e8eb9e87.json",
+					"name" : "24_10_8-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "24_11_11-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-24_11_11-1-Release-5bf0cbbc9e3f7213c4ab.json",
+					"name" : "24_11_11-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "24_11_11-2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-24_11_11-2-Release-569cbb786448595c6213.json",
+					"name" : "24_11_11-2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "24_11_11-3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-24_11_11-3-Release-29d60600a181ac6a9f73.json",
+					"name" : "24_11_11-3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "24_11_12-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-24_11_12-1-Release-aea57e76aced38bd21d9.json",
+					"name" : "24_11_12-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "24_11_5-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-24_11_5-1-Release-5992de5775c6b7f77f21.json",
+					"name" : "24_11_5-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "24_9_10-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-24_9_10-1-Release-31132b20abbd87df5768.json",
+					"name" : "24_9_10-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "24_9_14-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-24_9_14-1-Release-2d3f6ca66b6e125d0b1a.json",
+					"name" : "24_9_14-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "24_9_23-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-24_9_23-1-Release-8f8f3d9dd5a60e879d4f.json",
+					"name" : "24_9_23-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "24_9_24-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-24_9_24-1-Release-a1b8659ef15e191693c0.json",
+					"name" : "24_9_24-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "24_9_3-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-24_9_3-1-Release-b129c1b700c3fe4902b5.json",
+					"name" : "24_9_3-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "24_9_4-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-24_9_4-1-Release-42125c414a6f01c622ea.json",
+					"name" : "24_9_4-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "24_9_4-2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-24_9_4-2-Release-7b0276459bc4a0869e43.json",
+					"name" : "24_9_4-2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "24_9_4-3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-24_9_4-3-Release-0828cd1e12cbbb7b71d5.json",
+					"name" : "24_9_4-3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "24_9_5-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-24_9_5-1-Release-e0a19dc8b36587335e23.json",
+					"name" : "24_9_5-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "24_9_7-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-24_9_7-1-Release-d0c98b87ebd355efea5d.json",
+					"name" : "24_9_7-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "24_9_8-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-24_9_8-1-Release-1aaf08961fe2be7c9912.json",
+					"name" : "24_9_8-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "24_9_8-2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-24_9_8-2-Release-a669252088306cdf910f.json",
+					"name" : "24_9_8-2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "24_9_8-3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-24_9_8-3-Release-780ea1e6c0ff6c3d6da9.json",
+					"name" : "24_9_8-3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "24_9_9-2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-24_9_9-2-Release-7acd02e69befe0761fee.json",
+					"name" : "24_9_9-2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "C::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C-Release-e4596bb25e91571198f2.json",
+					"name" : "C",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Cc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Cc-Release-9b270ffbf42fd04de5da.json",
+					"name" : "Cc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "P1_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-P1_2-Release-4bef7872a5d4e0af7c09.json",
+					"name" : "P1_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "numadd::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-numadd-Release-5622574f15f4361df84e.json",
+					"name" : "numadd",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/xuxiao/git/C/cmake-build-release",
+		"source" : "/home/xuxiao/git/C"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

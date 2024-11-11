@@ -1,0 +1,377 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      The system is: Linux - 6.8.0-47-lowlatency - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS="-lm"/CMakeFiles/3.29.6/CompilerIdC/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS=\"-lm\"/CMakeFiles/CMakeScratch/TryCompile-fqCeHI"
+      binary: "/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS=\"-lm\"/CMakeFiles/CMakeScratch/TryCompile-fqCeHI"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS="-lm"/CMakeFiles/CMakeScratch/TryCompile-fqCeHI'
+        
+        Run Build Command(s): /home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_24931/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_24931.dir/build.make CMakeFiles/cmTC_24931.dir/build
+        gmake[1]: Entering directory '/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS="-lm"/CMakeFiles/CMakeScratch/TryCompile-fqCeHI'
+        CMakeFiles/cmTC_24931.dir/build.make:95: *** missing separator.  Stop.
+        gmake[1]: Leaving directory '/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS="-lm"/CMakeFiles/CMakeScratch/TryCompile-fqCeHI'
+        gmake: *** [Makefile:127: cmTC_24931/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:9 (project)"
+    checks:
+      - "Check for working C compiler: /usr/bin/cc"
+    directories:
+      source: "/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS=\"-lm\"/CMakeFiles/CMakeScratch/TryCompile-ouRhOn"
+      binary: "/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS=\"-lm\"/CMakeFiles/CMakeScratch/TryCompile-ouRhOn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS="-lm"/CMakeFiles/3.29.6/CompilerIdC/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS=\"-lm\"/CMakeFiles/CMakeScratch/TryCompile-6ybbJw"
+      binary: "/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS=\"-lm\"/CMakeFiles/CMakeScratch/TryCompile-6ybbJw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS="-lm"/CMakeFiles/CMakeScratch/TryCompile-6ybbJw'
+        
+        Run Build Command(s): /home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_97f14/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_97f14.dir/build.make CMakeFiles/cmTC_97f14.dir/build
+        gmake[1]: Entering directory '/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS="-lm"/CMakeFiles/CMakeScratch/TryCompile-6ybbJw'
+        CMakeFiles/cmTC_97f14.dir/build.make:95: *** missing separator.  Stop.
+        gmake[1]: Leaving directory '/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS="-lm"/CMakeFiles/CMakeScratch/TryCompile-6ybbJw'
+        gmake: *** [Makefile:127: cmTC_97f14/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:9 (project)"
+    checks:
+      - "Check for working C compiler: /usr/bin/cc"
+    directories:
+      source: "/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS=\"-lm\"/CMakeFiles/CMakeScratch/TryCompile-MqbN2f"
+      binary: "/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS=\"-lm\"/CMakeFiles/CMakeScratch/TryCompile-MqbN2f"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS="-lm"/CMakeFiles/3.29.6/CompilerIdC/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS=\"-lm\"/CMakeFiles/CMakeScratch/TryCompile-bUU4JN"
+      binary: "/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS=\"-lm\"/CMakeFiles/CMakeScratch/TryCompile-bUU4JN"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS="-lm"/CMakeFiles/CMakeScratch/TryCompile-bUU4JN'
+        
+        Run Build Command(s): /home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7c41e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7c41e.dir/build.make CMakeFiles/cmTC_7c41e.dir/build
+        gmake[1]: Entering directory '/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS="-lm"/CMakeFiles/CMakeScratch/TryCompile-bUU4JN'
+        CMakeFiles/cmTC_7c41e.dir/build.make:95: *** missing separator.  Stop.
+        gmake[1]: Leaving directory '/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS="-lm"/CMakeFiles/CMakeScratch/TryCompile-bUU4JN'
+        gmake: *** [Makefile:127: cmTC_7c41e/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:9 (project)"
+    checks:
+      - "Check for working C compiler: /usr/bin/cc"
+    directories:
+      source: "/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS=\"-lm\"/CMakeFiles/CMakeScratch/TryCompile-SFMtPr"
+      binary: "/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS=\"-lm\"/CMakeFiles/CMakeScratch/TryCompile-SFMtPr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS="-lm"/CMakeFiles/3.29.6/CompilerIdC/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS=\"-lm\"/CMakeFiles/CMakeScratch/TryCompile-1RSoeP"
+      binary: "/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS=\"-lm\"/CMakeFiles/CMakeScratch/TryCompile-1RSoeP"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS="-lm"/CMakeFiles/CMakeScratch/TryCompile-1RSoeP'
+        
+        Run Build Command(s): /home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_08b25/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_08b25.dir/build.make CMakeFiles/cmTC_08b25.dir/build
+        gmake[1]: Entering directory '/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS="-lm"/CMakeFiles/CMakeScratch/TryCompile-1RSoeP'
+        CMakeFiles/cmTC_08b25.dir/build.make:95: *** missing separator.  Stop.
+        gmake[1]: Leaving directory '/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS="-lm"/CMakeFiles/CMakeScratch/TryCompile-1RSoeP'
+        gmake: *** [Makefile:127: cmTC_08b25/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:9 (project)"
+    checks:
+      - "Check for working C compiler: /usr/bin/cc"
+    directories:
+      source: "/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS=\"-lm\"/CMakeFiles/CMakeScratch/TryCompile-rng3xo"
+      binary: "/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS=\"-lm\"/CMakeFiles/CMakeScratch/TryCompile-rng3xo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS="-lm"/CMakeFiles/3.29.6/CompilerIdC/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS=\"-lm\"/CMakeFiles/CMakeScratch/TryCompile-UMYUS4"
+      binary: "/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS=\"-lm\"/CMakeFiles/CMakeScratch/TryCompile-UMYUS4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS="-lm"/CMakeFiles/CMakeScratch/TryCompile-UMYUS4'
+        
+        Run Build Command(s): /home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_60cd8/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_60cd8.dir/build.make CMakeFiles/cmTC_60cd8.dir/build
+        gmake[1]: Entering directory '/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS="-lm"/CMakeFiles/CMakeScratch/TryCompile-UMYUS4'
+        CMakeFiles/cmTC_60cd8.dir/build.make:95: *** missing separator.  Stop.
+        gmake[1]: Leaving directory '/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS="-lm"/CMakeFiles/CMakeScratch/TryCompile-UMYUS4'
+        gmake: *** [Makefile:127: cmTC_60cd8/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:9 (project)"
+    checks:
+      - "Check for working C compiler: /usr/bin/cc"
+    directories:
+      source: "/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS=\"-lm\"/CMakeFiles/CMakeScratch/TryCompile-zdDcaL"
+      binary: "/home/xuxiao/git/C/-DCMAKE_EXE_LINKER_FLAGS=\"-lm\"/CMakeFiles/CMakeScratch/TryCompile-zdDcaL"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+      exitCode: 1
+...
