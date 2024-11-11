@@ -17,4 +17,7 @@ file(GLOB SRC_FILES "src/learn/*.c") # 目录下的文件
 foreach(SRC_FILE ${SRC_FILES})
     get_filename_component(EXE_NAME ${SRC_FILE} NAME_WE) # 获取不带扩展名的文件名
     add_executable(${EXE_NAME} ${SRC_FILE})
+
+    target_link_libraries(${EXE_NAME} PRIVATE m)#连接数学库!!!!
+
 endforeach()
