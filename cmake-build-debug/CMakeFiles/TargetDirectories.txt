@@ -6,6 +6,7 @@
 /home/xuxiao/git/C/cmake-build-debug/CMakeFiles/24_11_11-2.dir
 /home/xuxiao/git/C/cmake-build-debug/CMakeFiles/24_11_11-3.dir
 /home/xuxiao/git/C/cmake-build-debug/CMakeFiles/24_11_12-1.dir
+/home/xuxiao/git/C/cmake-build-debug/CMakeFiles/24_11_12-2.dir
 /home/xuxiao/git/C/cmake-build-debug/CMakeFiles/24_11_5-1.dir
 /home/xuxiao/git/C/cmake-build-debug/CMakeFiles/24_9_10-1.dir
 /home/xuxiao/git/C/cmake-build-debug/CMakeFiles/24_9_14-1.dir
