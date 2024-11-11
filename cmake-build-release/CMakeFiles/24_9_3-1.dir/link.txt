@@ -1,1 +1,1 @@
-/usr/bin/cc -O3 -DNDEBUG "CMakeFiles/24_9_3-1.dir/src/learn/24_9_3-1.c.o" -o 24_9_3-1  -lm
+/usr/bin/cc -O3 -DNDEBUG "CMakeFiles/24_9_3-1.dir/src/learn/24_9_3-1.c.o" -o 24_9_3-1

@@ -1,1 +1,1 @@
-/usr/bin/cc -g CMakeFiles/Cc.dir/src/learn/Cc.c.o -o Cc  -lm
+/usr/bin/cc -g CMakeFiles/Cc.dir/src/learn/Cc.c.o -o Cc

@@ -1,1 +1,1 @@
-/usr/bin/cc -g CMakeFiles/numadd.dir/src/learn/numadd.c.o -o numadd  -lm
+/usr/bin/cc -g CMakeFiles/numadd.dir/src/learn/numadd.c.o -o numadd
