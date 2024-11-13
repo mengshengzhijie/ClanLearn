@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.28"
@@ -44,11 +44,12 @@
 						26,
 						27,
 						28,
-						29
+						29,
+						30
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "Release",
 			"projects" : 
 			[
 				{
@@ -88,7 +89,8 @@
 						26,
 						27,
 						28,
-						29
+						29,
+						30
 					]
 				}
 			],
@@ -97,210 +99,217 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "24_10_21-1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-24_10_21-1-Debug-401321aad581181ea79b.json",
+					"jsonFile" : "target-24_10_21-1-Release-d333ee8df9868187fccf.json",
 					"name" : "24_10_21-1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "24_10_21-2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-24_10_21-2-Debug-eef5d7cacc4014e35226.json",
+					"jsonFile" : "target-24_10_21-2-Release-2c01d52427132c0c0166.json",
 					"name" : "24_10_21-2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "24_10_21-3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-24_10_21-3-Debug-af38ac4cad2da2a86c29.json",
+					"jsonFile" : "target-24_10_21-3-Release-fd83a79255a079415b4a.json",
 					"name" : "24_10_21-3",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "24_10_8-1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-24_10_8-1-Debug-7a3a0b15390ec4dd7f09.json",
+					"jsonFile" : "target-24_10_8-1-Release-5f64e321497a6371ed75.json",
 					"name" : "24_10_8-1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "24_11_11-1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-24_11_11-1-Debug-6f75d8bedcda923d51c3.json",
+					"jsonFile" : "target-24_11_11-1-Release-7f6f4a1e8c9badaf5228.json",
 					"name" : "24_11_11-1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "24_11_11-2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-24_11_11-2-Debug-0d57cf6de88f7fcba986.json",
+					"jsonFile" : "target-24_11_11-2-Release-b3913d3c588db3c9614f.json",
 					"name" : "24_11_11-2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "24_11_11-3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-24_11_11-3-Debug-3bb56fe786e8ce925682.json",
+					"jsonFile" : "target-24_11_11-3-Release-76e9200f9aa7e453b6a7.json",
 					"name" : "24_11_11-3",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "24_11_12-1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-24_11_12-1-Debug-2a7aa5caaf87485194b8.json",
+					"jsonFile" : "target-24_11_12-1-Release-e96cea4601a87cd3a5c1.json",
 					"name" : "24_11_12-1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "24_11_12-2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-24_11_12-2-Debug-2c1ebd232e3d79c43797.json",
+					"jsonFile" : "target-24_11_12-2-Release-de370a58c1735aa0b5d0.json",
 					"name" : "24_11_12-2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "24_11_12-3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-24_11_12-3-Debug-bf959c9ccc13a8e99942.json",
+					"jsonFile" : "target-24_11_12-3-Release-e8a96edcce808a56e865.json",
 					"name" : "24_11_12-3",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "24_11_12_-2-1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-24_11_12_-2-1-Debug-4163f660438cd6ec28d9.json",
+					"jsonFile" : "target-24_11_12_-2-1-Release-6deb5503db9542edb69d.json",
 					"name" : "24_11_12_-2-1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "24_11_13-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-24_11_13-1-Release-174e2560613431a7d100.json",
+					"name" : "24_11_13-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "24_11_5-1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-24_11_5-1-Debug-1f92b1be9f1823903615.json",
+					"jsonFile" : "target-24_11_5-1-Release-434e2deea6bb044a16bc.json",
 					"name" : "24_11_5-1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "24_9_10-1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-24_9_10-1-Debug-1b437251e408e59b2718.json",
+					"jsonFile" : "target-24_9_10-1-Release-9c74855ba8803461303d.json",
 					"name" : "24_9_10-1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "24_9_14-1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-24_9_14-1-Debug-01fef7e10746c0ba44a1.json",
+					"jsonFile" : "target-24_9_14-1-Release-daec207b29743bb7520c.json",
 					"name" : "24_9_14-1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "24_9_23-1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-24_9_23-1-Debug-6ae10f986765284951f1.json",
+					"jsonFile" : "target-24_9_23-1-Release-bd0ece0ebd144b145aeb.json",
 					"name" : "24_9_23-1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "24_9_24-1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-24_9_24-1-Debug-ef52e61171a825af6f89.json",
+					"jsonFile" : "target-24_9_24-1-Release-a7b4c3d7315058bbf7a5.json",
 					"name" : "24_9_24-1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "24_9_3-1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-24_9_3-1-Debug-adff2b37e6acdde49b26.json",
+					"jsonFile" : "target-24_9_3-1-Release-bd7525dcd158f478bd7a.json",
 					"name" : "24_9_3-1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "24_9_4-1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-24_9_4-1-Debug-7166c4f17d7a23153be5.json",
+					"jsonFile" : "target-24_9_4-1-Release-53bd551d27c3532a8963.json",
 					"name" : "24_9_4-1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "24_9_4-2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-24_9_4-2-Debug-e3f6d89714d5a0b6cca7.json",
+					"jsonFile" : "target-24_9_4-2-Release-643bb97089311b0a2701.json",
 					"name" : "24_9_4-2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "24_9_4-3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-24_9_4-3-Debug-dcffa8279d0c35e25292.json",
+					"jsonFile" : "target-24_9_4-3-Release-af719f6b085a2319e0cd.json",
 					"name" : "24_9_4-3",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "24_9_5-1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-24_9_5-1-Debug-3b43970c5f993db9d293.json",
+					"jsonFile" : "target-24_9_5-1-Release-dcf534060b77c54941ce.json",
 					"name" : "24_9_5-1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "24_9_7-1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-24_9_7-1-Debug-9957d3f465565a1f5b33.json",
+					"jsonFile" : "target-24_9_7-1-Release-614a752f36b2239d31fa.json",
 					"name" : "24_9_7-1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "24_9_8-1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-24_9_8-1-Debug-4e5b6bb7cd05baabb1d7.json",
+					"jsonFile" : "target-24_9_8-1-Release-cad24fc429aa56e9b484.json",
 					"name" : "24_9_8-1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "24_9_8-2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-24_9_8-2-Debug-12aa8062dcbd55e7ec0e.json",
+					"jsonFile" : "target-24_9_8-2-Release-764c0d4dd84ccef82056.json",
 					"name" : "24_9_8-2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "24_9_8-3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-24_9_8-3-Debug-581af9a1c10e2f0803af.json",
+					"jsonFile" : "target-24_9_8-3-Release-c3a8d46e5075601af55d.json",
 					"name" : "24_9_8-3",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "24_9_9-2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-24_9_9-2-Debug-2ac295f889ec2515d6e2.json",
+					"jsonFile" : "target-24_9_9-2-Release-5b6a5c895ab1e2376b0d.json",
 					"name" : "24_9_9-2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "C::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-C-Debug-0e8bb686cfc0d0a30887.json",
+					"jsonFile" : "target-C-Release-a996f51dddfba0b6f665.json",
 					"name" : "C",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Cc::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Cc-Debug-484995026cd8b87d12da.json",
+					"jsonFile" : "target-Cc-Release-48d74564b43173d3a3e9.json",
 					"name" : "Cc",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "P1_2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-P1_2-Debug-09e52e8f276e727629cd.json",
+					"jsonFile" : "target-P1_2-Release-13fe151e9b904cc8fc1f.json",
 					"name" : "P1_2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "numadd::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-numadd-Debug-5948fd59cd512fa3f60c.json",
+					"jsonFile" : "target-numadd-Release-5eab53c2009b3470ae9d.json",
 					"name" : "numadd",
 					"projectIndex" : 0
 				}
@@ -310,7 +319,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/xuxiao/git/C/cmake-build-debug",
+		"build" : "/home/xuxiao/git/C/cmake-build-release",
 		"source" : "/home/xuxiao/git/C"
 	},
 	"version" : 
