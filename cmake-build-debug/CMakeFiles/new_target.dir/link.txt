@@ -1,0 +1,1 @@
+/usr/bin/cc -g "CMakeFiles/new_target.dir/src/project/Tic-Tac-Toe/main.c.o" "CMakeFiles/new_target.dir/src/project/Tic-Tac-Toe/game.c.o" -o new_target
