@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.29)
+project(MineSweeping C)
+
+set(CMAKE_C_STANDARD 23)
+
+
+add_executable(
+        MineSueeping
+        src/project/MineSweeping/main.c
+        src/project/MineSweeping/game.c
+        src/project/MineSweeping/game.h
+
+)

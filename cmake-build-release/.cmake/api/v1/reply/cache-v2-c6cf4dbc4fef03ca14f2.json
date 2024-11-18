@@ -43,7 +43,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Debug"
+			"value" : "Release"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/xuxiao/git/C/cmake-build-debug"
+			"value" : "/home/xuxiao/git/C/cmake-build-release"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -543,7 +543,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/xuxiao/git/C/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/xuxiao/git/C/cmake-build-release/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -1155,7 +1155,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/xuxiao/git/C/cmake-build-debug"
+			"value" : "/home/xuxiao/git/C/cmake-build-release"
 		},
 		{
 			"name" : "C_IS_TOP_LEVEL",
@@ -1182,6 +1182,42 @@
 			"value" : "/home/xuxiao/git/C"
 		},
 		{
+			"name" : "MineSweeping_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/xuxiao/git/C/cmake-build-release"
+		},
+		{
+			"name" : "MineSweeping_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "MineSweeping_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/xuxiao/git/C"
+		},
+		{
 			"name" : "Project_BINARY_DIR",
 			"properties" : 
 			[
@@ -1191,7 +1227,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/xuxiao/git/C/cmake-build-debug"
+			"value" : "/home/xuxiao/git/C/cmake-build-release"
 		},
 		{
 			"name" : "Project_IS_TOP_LEVEL",
@@ -1227,7 +1263,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/xuxiao/git/C/cmake-build-debug"
+			"value" : "/home/xuxiao/git/C/cmake-build-release"
 		},
 		{
 			"name" : "Tic-Tac-Toe_IS_TOP_LEVEL",
@@ -1275,7 +1311,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/xuxiao/git/C/cmake-build-debug"
+			"value" : "/home/xuxiao/git/C/cmake-build-release"
 		},
 		{
 			"name" : "learn_IS_TOP_LEVEL",
@@ -1311,7 +1347,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/xuxiao/git/C/cmake-build-debug"
+			"value" : "/home/xuxiao/git/C/cmake-build-release"
 		},
 		{
 			"name" : "src/project/Tic-Tac-Toe_IS_TOP_LEVEL",

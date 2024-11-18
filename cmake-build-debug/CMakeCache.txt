@@ -225,6 +225,15 @@ C_IS_TOP_LEVEL:STATIC=ON
 C_SOURCE_DIR:STATIC=/home/xuxiao/git/C
 
 //Value Computed by CMake
+MineSweeping_BINARY_DIR:STATIC=/home/xuxiao/git/C/cmake-build-debug
+
+//Value Computed by CMake
+MineSweeping_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+MineSweeping_SOURCE_DIR:STATIC=/home/xuxiao/git/C
+
+//Value Computed by CMake
 Project_BINARY_DIR:STATIC=/home/xuxiao/git/C/cmake-build-debug
 
 //Value Computed by CMake
