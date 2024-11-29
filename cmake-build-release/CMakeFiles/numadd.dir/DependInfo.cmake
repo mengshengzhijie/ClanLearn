@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/xuxiao/git/C/src/learn/numadd.c" "CMakeFiles/numadd.dir/src/learn/numadd.c.o" "gcc" "CMakeFiles/numadd.dir/src/learn/numadd.c.o.d"
+  "/home/xuxiao/CLionProjects/cLangLearn/src/learn/numadd.c" "CMakeFiles/numadd.dir/src/learn/numadd.c.o" "gcc" "CMakeFiles/numadd.dir/src/learn/numadd.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

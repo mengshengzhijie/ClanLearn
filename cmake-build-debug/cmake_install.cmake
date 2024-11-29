@@ -1,4 +1,4 @@
-# Install script for directory: /home/xuxiao/git/C
+# Install script for directory: /home/xuxiao/CLionProjects/cLangLearn
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -57,6 +57,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/home/xuxiao/git/C/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

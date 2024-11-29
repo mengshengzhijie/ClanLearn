@@ -6,7 +6,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/3.30.5/CMakeSystem.cmake"
+			"path" : "cmake-build-release/CMakeFiles/3.30.5/CMakeSystem.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -20,7 +20,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/3.30.5/CMakeCCompiler.cmake"
+			"path" : "cmake-build-release/CMakeFiles/3.30.5/CMakeCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -91,8 +91,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/xuxiao/git/C/cmake-build-debug",
-		"source" : "/home/xuxiao/git/C"
+		"build" : "/home/xuxiao/CLionProjects/cLangLearn/cmake-build-release",
+		"source" : "/home/xuxiao/CLionProjects/cLangLearn"
 	},
 	"version" : 
 	{
