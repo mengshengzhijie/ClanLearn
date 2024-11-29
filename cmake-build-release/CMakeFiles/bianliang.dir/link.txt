@@ -1,1 +1,0 @@
-/usr/bin/cc -O3 -DNDEBUG CMakeFiles/bianliang.dir/src/C/bianliang.c.o -o bianliang

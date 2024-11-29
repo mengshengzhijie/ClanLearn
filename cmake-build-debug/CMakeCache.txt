@@ -27,32 +27,6 @@ CMAKE_BUILD_TYPE:STRING=Debug
 //Enable colored diagnostics throughout.
 CMAKE_COLOR_DIAGNOSTICS:BOOL=ON
 
-//CXX compiler
-CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
-
-//A wrapper around 'ar' adding the appropriate '--plugin' option
-// for the GCC compiler
-CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-13
-
-//A wrapper around 'ranlib' adding the appropriate '--plugin' option
-// for the GCC compiler
-CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-13
-
-//Flags used by the CXX compiler during all build types.
-CMAKE_CXX_FLAGS:STRING=
-
-//Flags used by the CXX compiler during DEBUG builds.
-CMAKE_CXX_FLAGS_DEBUG:STRING=-g
-
-//Flags used by the CXX compiler during MINSIZEREL builds.
-CMAKE_CXX_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
-
-//Flags used by the CXX compiler during RELEASE builds.
-CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
-
-//Flags used by the CXX compiler during RELWITHDEBINFO builds.
-CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
-
 //C compiler
 CMAKE_C_COMPILER:FILEPATH=/usr/bin/cc
 
@@ -224,51 +198,6 @@ C_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 C_SOURCE_DIR:STATIC=/home/xuxiao/git/C
 
-//Value Computed by CMake
-MineSweeping_BINARY_DIR:STATIC=/home/xuxiao/git/C/cmake-build-debug
-
-//Value Computed by CMake
-MineSweeping_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-MineSweeping_SOURCE_DIR:STATIC=/home/xuxiao/git/C
-
-//Value Computed by CMake
-Project_BINARY_DIR:STATIC=/home/xuxiao/git/C/cmake-build-debug
-
-//Value Computed by CMake
-Project_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-Project_SOURCE_DIR:STATIC=/home/xuxiao/git/C
-
-//Value Computed by CMake
-Tic-Tac-Toe_BINARY_DIR:STATIC=/home/xuxiao/git/C/cmake-build-debug
-
-//Value Computed by CMake
-Tic-Tac-Toe_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-Tic-Tac-Toe_SOURCE_DIR:STATIC=/home/xuxiao/git/C
-
-//Value Computed by CMake
-learn_BINARY_DIR:STATIC=/home/xuxiao/git/C/cmake-build-debug
-
-//Value Computed by CMake
-learn_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-learn_SOURCE_DIR:STATIC=/home/xuxiao/git/C
-
-//Value Computed by CMake
-src/project/Tic-Tac-Toe_BINARY_DIR:STATIC=/home/xuxiao/git/C/cmake-build-debug
-
-//Value Computed by CMake
-src/project/Tic-Tac-Toe_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-src/project/Tic-Tac-Toe_SOURCE_DIR:STATIC=/home/xuxiao/git/C
-
 
 ########################
 # INTERNAL cache entries
@@ -283,31 +212,15 @@ CMAKE_CACHEFILE_DIR:INTERNAL=/home/xuxiao/git/C/cmake-build-debug
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
-CMAKE_CACHE_MINOR_VERSION:INTERNAL=29
+CMAKE_CACHE_MINOR_VERSION:INTERNAL=30
 //Patch version of cmake used to create the current loaded cache
-CMAKE_CACHE_PATCH_VERSION:INTERNAL=6
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=5
 //Path to CMake executable.
 CMAKE_COMMAND:INTERNAL=/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake
 //Path to cpack program executable.
 CMAKE_CPACK_COMMAND:INTERNAL=/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cpack
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/ctest
-//ADVANCED property for variable: CMAKE_CXX_COMPILER
-CMAKE_CXX_COMPILER-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_CXX_COMPILER_AR
-CMAKE_CXX_COMPILER_AR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_CXX_COMPILER_RANLIB
-CMAKE_CXX_COMPILER_RANLIB-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_CXX_FLAGS
-CMAKE_CXX_FLAGS-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_CXX_FLAGS_DEBUG
-CMAKE_CXX_FLAGS_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_CXX_FLAGS_MINSIZEREL
-CMAKE_CXX_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_CXX_FLAGS_RELEASE
-CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_CXX_FLAGS_RELWITHDEBINFO
-CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_COMPILER
 CMAKE_C_COMPILER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_COMPILER_AR
@@ -384,7 +297,7 @@ CMAKE_RANLIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_READELF
 CMAKE_READELF-ADVANCED:INTERNAL=1
 //Path to CMake installation.
-CMAKE_ROOT:INTERNAL=/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29
+CMAKE_ROOT:INTERNAL=/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
 CMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG
