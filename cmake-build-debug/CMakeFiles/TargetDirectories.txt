@@ -37,6 +37,8 @@
 /home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles/24_9_8-2.dir
 /home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles/24_9_8-3.dir
 /home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles/24_9_9-2.dir
+/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles/25_1_4-1.dir
+/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles/25_1_5-1.dir
 /home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles/C.dir
 /home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles/Cc.dir
 /home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles/P1_2.dir
