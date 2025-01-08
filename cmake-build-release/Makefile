@@ -650,6 +650,32 @@ depend:
 .PHONY : 25_1_5-1/fast
 
 #=============================================================================
+# Target rules for targets named 25_1_5-2
+
+# Build rule for target.
+25_1_5-2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 25_1_5-2
+.PHONY : 25_1_5-2
+
+# fast build rule for target.
+25_1_5-2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/25_1_5-2.dir/build.make CMakeFiles/25_1_5-2.dir/build
+.PHONY : 25_1_5-2/fast
+
+#=============================================================================
+# Target rules for targets named 25_1_8-1
+
+# Build rule for target.
+25_1_8-1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 25_1_8-1
+.PHONY : 25_1_8-1
+
+# fast build rule for target.
+25_1_8-1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/25_1_8-1.dir/build.make CMakeFiles/25_1_8-1.dir/build
+.PHONY : 25_1_8-1/fast
+
+#=============================================================================
 # Target rules for targets named C
 
 # Build rule for target.
@@ -1685,6 +1711,54 @@ src/learn/25_1_5-1.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/25_1_5-1.dir/build.make CMakeFiles/25_1_5-1.dir/src/learn/25_1_5-1.c.s
 .PHONY : src/learn/25_1_5-1.c.s
 
+src/learn/25_1_5-2.o: src/learn/25_1_5-2.c.o
+.PHONY : src/learn/25_1_5-2.o
+
+# target to build an object file
+src/learn/25_1_5-2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/25_1_5-2.dir/build.make CMakeFiles/25_1_5-2.dir/src/learn/25_1_5-2.c.o
+.PHONY : src/learn/25_1_5-2.c.o
+
+src/learn/25_1_5-2.i: src/learn/25_1_5-2.c.i
+.PHONY : src/learn/25_1_5-2.i
+
+# target to preprocess a source file
+src/learn/25_1_5-2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/25_1_5-2.dir/build.make CMakeFiles/25_1_5-2.dir/src/learn/25_1_5-2.c.i
+.PHONY : src/learn/25_1_5-2.c.i
+
+src/learn/25_1_5-2.s: src/learn/25_1_5-2.c.s
+.PHONY : src/learn/25_1_5-2.s
+
+# target to generate assembly for a file
+src/learn/25_1_5-2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/25_1_5-2.dir/build.make CMakeFiles/25_1_5-2.dir/src/learn/25_1_5-2.c.s
+.PHONY : src/learn/25_1_5-2.c.s
+
+src/learn/25_1_8-1.o: src/learn/25_1_8-1.c.o
+.PHONY : src/learn/25_1_8-1.o
+
+# target to build an object file
+src/learn/25_1_8-1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/25_1_8-1.dir/build.make CMakeFiles/25_1_8-1.dir/src/learn/25_1_8-1.c.o
+.PHONY : src/learn/25_1_8-1.c.o
+
+src/learn/25_1_8-1.i: src/learn/25_1_8-1.c.i
+.PHONY : src/learn/25_1_8-1.i
+
+# target to preprocess a source file
+src/learn/25_1_8-1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/25_1_8-1.dir/build.make CMakeFiles/25_1_8-1.dir/src/learn/25_1_8-1.c.i
+.PHONY : src/learn/25_1_8-1.c.i
+
+src/learn/25_1_8-1.s: src/learn/25_1_8-1.c.s
+.PHONY : src/learn/25_1_8-1.s
+
+# target to generate assembly for a file
+src/learn/25_1_8-1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/25_1_8-1.dir/build.make CMakeFiles/25_1_8-1.dir/src/learn/25_1_8-1.c.s
+.PHONY : src/learn/25_1_8-1.c.s
+
 src/learn/C.o: src/learn/C.c.o
 .PHONY : src/learn/C.o
 
@@ -1830,6 +1904,8 @@ help:
 	@echo "... 24_9_9-2"
 	@echo "... 25_1_4-1"
 	@echo "... 25_1_5-1"
+	@echo "... 25_1_5-2"
+	@echo "... 25_1_8-1"
 	@echo "... C"
 	@echo "... Cc"
 	@echo "... P1_2"
@@ -1957,6 +2033,12 @@ help:
 	@echo "... src/learn/25_1_5-1.o"
 	@echo "... src/learn/25_1_5-1.i"
 	@echo "... src/learn/25_1_5-1.s"
+	@echo "... src/learn/25_1_5-2.o"
+	@echo "... src/learn/25_1_5-2.i"
+	@echo "... src/learn/25_1_5-2.s"
+	@echo "... src/learn/25_1_8-1.o"
+	@echo "... src/learn/25_1_8-1.i"
+	@echo "... src/learn/25_1_8-1.s"
 	@echo "... src/learn/C.o"
 	@echo "... src/learn/C.i"
 	@echo "... src/learn/C.s"
