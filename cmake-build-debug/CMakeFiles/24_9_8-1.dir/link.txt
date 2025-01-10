@@ -1,1 +1,1 @@
-/usr/bin/cc -g "CMakeFiles/24_9_8-1.dir/src/learn/24_9_8-1.c.o" -o 24_9_8-1
+/usr/bin/cc -g "CMakeFiles/24_9_8-1.dir/src/learn/24_9_8-1.c.o" -o 24_9_8-1  -lm
