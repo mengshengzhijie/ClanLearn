@@ -105,6 +105,7 @@ all: CMakeFiles/24_9_9-2.dir/all
 all: CMakeFiles/25_1_10-1.dir/all
 all: CMakeFiles/25_1_10-2.dir/all
 all: CMakeFiles/25_1_10-3.dir/all
+all: CMakeFiles/25_1_10-4.dir/all
 all: CMakeFiles/25_1_4-1.dir/all
 all: CMakeFiles/25_1_5-1.dir/all
 all: CMakeFiles/25_1_5-2.dir/all
@@ -162,6 +163,7 @@ clean: CMakeFiles/24_9_9-2.dir/clean
 clean: CMakeFiles/25_1_10-1.dir/clean
 clean: CMakeFiles/25_1_10-2.dir/clean
 clean: CMakeFiles/25_1_10-3.dir/clean
+clean: CMakeFiles/25_1_10-4.dir/clean
 clean: CMakeFiles/25_1_4-1.dir/clean
 clean: CMakeFiles/25_1_5-1.dir/clean
 clean: CMakeFiles/25_1_5-2.dir/clean
@@ -179,12 +181,12 @@ clean: CMakeFiles/numadd.dir/clean
 CMakeFiles/24_10_21-1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_10_21-1.dir/build.make CMakeFiles/24_10_21-1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_10_21-1.dir/build.make CMakeFiles/24_10_21-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 24_10_21-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=1 "Built target 24_10_21-1"
 .PHONY : CMakeFiles/24_10_21-1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/24_10_21-1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/24_10_21-1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/24_10_21-1.dir/rule
@@ -205,7 +207,7 @@ CMakeFiles/24_10_21-1.dir/clean:
 CMakeFiles/24_10_21-2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_10_21-2.dir/build.make CMakeFiles/24_10_21-2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_10_21-2.dir/build.make CMakeFiles/24_10_21-2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target 24_10_21-2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=2,3 "Built target 24_10_21-2"
 .PHONY : CMakeFiles/24_10_21-2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -231,7 +233,7 @@ CMakeFiles/24_10_21-2.dir/clean:
 CMakeFiles/24_10_21-3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_10_21-3.dir/build.make CMakeFiles/24_10_21-3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_10_21-3.dir/build.make CMakeFiles/24_10_21-3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target 24_10_21-3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=4,5 "Built target 24_10_21-3"
 .PHONY : CMakeFiles/24_10_21-3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -257,7 +259,7 @@ CMakeFiles/24_10_21-3.dir/clean:
 CMakeFiles/24_10_8-1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_10_8-1.dir/build.make CMakeFiles/24_10_8-1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_10_8-1.dir/build.make CMakeFiles/24_10_8-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target 24_10_8-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target 24_10_8-1"
 .PHONY : CMakeFiles/24_10_8-1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -283,7 +285,7 @@ CMakeFiles/24_10_8-1.dir/clean:
 CMakeFiles/24_11_11-1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_11-1.dir/build.make CMakeFiles/24_11_11-1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_11-1.dir/build.make CMakeFiles/24_11_11-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target 24_11_11-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target 24_11_11-1"
 .PHONY : CMakeFiles/24_11_11-1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -309,7 +311,7 @@ CMakeFiles/24_11_11-1.dir/clean:
 CMakeFiles/24_11_11-2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_11-2.dir/build.make CMakeFiles/24_11_11-2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_11-2.dir/build.make CMakeFiles/24_11_11-2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target 24_11_11-2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target 24_11_11-2"
 .PHONY : CMakeFiles/24_11_11-2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -335,7 +337,7 @@ CMakeFiles/24_11_11-2.dir/clean:
 CMakeFiles/24_11_11-3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_11-3.dir/build.make CMakeFiles/24_11_11-3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_11-3.dir/build.make CMakeFiles/24_11_11-3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target 24_11_11-3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target 24_11_11-3"
 .PHONY : CMakeFiles/24_11_11-3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -361,7 +363,7 @@ CMakeFiles/24_11_11-3.dir/clean:
 CMakeFiles/24_11_12-1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_12-1.dir/build.make CMakeFiles/24_11_12-1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_12-1.dir/build.make CMakeFiles/24_11_12-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target 24_11_12-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=14,15 "Built target 24_11_12-1"
 .PHONY : CMakeFiles/24_11_12-1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -387,7 +389,7 @@ CMakeFiles/24_11_12-1.dir/clean:
 CMakeFiles/24_11_12-2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_12-2.dir/build.make CMakeFiles/24_11_12-2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_12-2.dir/build.make CMakeFiles/24_11_12-2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target 24_11_12-2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target 24_11_12-2"
 .PHONY : CMakeFiles/24_11_12-2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -413,7 +415,7 @@ CMakeFiles/24_11_12-2.dir/clean:
 CMakeFiles/24_11_12-3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_12-3.dir/build.make CMakeFiles/24_11_12-3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_12-3.dir/build.make CMakeFiles/24_11_12-3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target 24_11_12-3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target 24_11_12-3"
 .PHONY : CMakeFiles/24_11_12-3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -439,7 +441,7 @@ CMakeFiles/24_11_12-3.dir/clean:
 CMakeFiles/24_11_12_-2-1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_12_-2-1.dir/build.make CMakeFiles/24_11_12_-2-1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_12_-2-1.dir/build.make CMakeFiles/24_11_12_-2-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target 24_11_12_-2-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target 24_11_12_-2-1"
 .PHONY : CMakeFiles/24_11_12_-2-1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -465,7 +467,7 @@ CMakeFiles/24_11_12_-2-1.dir/clean:
 CMakeFiles/24_11_13-1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_13-1.dir/build.make CMakeFiles/24_11_13-1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_13-1.dir/build.make CMakeFiles/24_11_13-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target 24_11_13-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target 24_11_13-1"
 .PHONY : CMakeFiles/24_11_13-1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -491,7 +493,7 @@ CMakeFiles/24_11_13-1.dir/clean:
 CMakeFiles/24_11_13-2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_13-2.dir/build.make CMakeFiles/24_11_13-2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_13-2.dir/build.make CMakeFiles/24_11_13-2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target 24_11_13-2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=24,25 "Built target 24_11_13-2"
 .PHONY : CMakeFiles/24_11_13-2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -517,7 +519,7 @@ CMakeFiles/24_11_13-2.dir/clean:
 CMakeFiles/24_11_15-1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_15-1.dir/build.make CMakeFiles/24_11_15-1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_15-1.dir/build.make CMakeFiles/24_11_15-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target 24_11_15-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=26,27 "Built target 24_11_15-1"
 .PHONY : CMakeFiles/24_11_15-1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -543,7 +545,7 @@ CMakeFiles/24_11_15-1.dir/clean:
 CMakeFiles/24_11_15-2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_15-2.dir/build.make CMakeFiles/24_11_15-2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_15-2.dir/build.make CMakeFiles/24_11_15-2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target 24_11_15-2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=28,29 "Built target 24_11_15-2"
 .PHONY : CMakeFiles/24_11_15-2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -569,7 +571,7 @@ CMakeFiles/24_11_15-2.dir/clean:
 CMakeFiles/24_11_15-3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_15-3.dir/build.make CMakeFiles/24_11_15-3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_15-3.dir/build.make CMakeFiles/24_11_15-3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target 24_11_15-3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=30,31 "Built target 24_11_15-3"
 .PHONY : CMakeFiles/24_11_15-3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -595,7 +597,7 @@ CMakeFiles/24_11_15-3.dir/clean:
 CMakeFiles/24_11_15-4.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_15-4.dir/build.make CMakeFiles/24_11_15-4.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_15-4.dir/build.make CMakeFiles/24_11_15-4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target 24_11_15-4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=32,33 "Built target 24_11_15-4"
 .PHONY : CMakeFiles/24_11_15-4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -621,7 +623,7 @@ CMakeFiles/24_11_15-4.dir/clean:
 CMakeFiles/24_11_16-1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_16-1.dir/build.make CMakeFiles/24_11_16-1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_16-1.dir/build.make CMakeFiles/24_11_16-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target 24_11_16-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=34,35 "Built target 24_11_16-1"
 .PHONY : CMakeFiles/24_11_16-1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -647,7 +649,7 @@ CMakeFiles/24_11_16-1.dir/clean:
 CMakeFiles/24_11_16-2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_16-2.dir/build.make CMakeFiles/24_11_16-2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_16-2.dir/build.make CMakeFiles/24_11_16-2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target 24_11_16-2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=36,37 "Built target 24_11_16-2"
 .PHONY : CMakeFiles/24_11_16-2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -673,7 +675,7 @@ CMakeFiles/24_11_16-2.dir/clean:
 CMakeFiles/24_11_17-1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_17-1.dir/build.make CMakeFiles/24_11_17-1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_17-1.dir/build.make CMakeFiles/24_11_17-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target 24_11_17-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=38,39 "Built target 24_11_17-1"
 .PHONY : CMakeFiles/24_11_17-1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -699,7 +701,7 @@ CMakeFiles/24_11_17-1.dir/clean:
 CMakeFiles/24_11_17-2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_17-2.dir/build.make CMakeFiles/24_11_17-2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_17-2.dir/build.make CMakeFiles/24_11_17-2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target 24_11_17-2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=40,41 "Built target 24_11_17-2"
 .PHONY : CMakeFiles/24_11_17-2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -725,7 +727,7 @@ CMakeFiles/24_11_17-2.dir/clean:
 CMakeFiles/24_11_21-1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_21-1.dir/build.make CMakeFiles/24_11_21-1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_21-1.dir/build.make CMakeFiles/24_11_21-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target 24_11_21-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=42,43 "Built target 24_11_21-1"
 .PHONY : CMakeFiles/24_11_21-1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -751,7 +753,7 @@ CMakeFiles/24_11_21-1.dir/clean:
 CMakeFiles/24_11_27-1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_27-1.dir/build.make CMakeFiles/24_11_27-1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_27-1.dir/build.make CMakeFiles/24_11_27-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target 24_11_27-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=44,45 "Built target 24_11_27-1"
 .PHONY : CMakeFiles/24_11_27-1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -777,7 +779,7 @@ CMakeFiles/24_11_27-1.dir/clean:
 CMakeFiles/24_11_29-1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_29-1.dir/build.make CMakeFiles/24_11_29-1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_29-1.dir/build.make CMakeFiles/24_11_29-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target 24_11_29-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=46,47 "Built target 24_11_29-1"
 .PHONY : CMakeFiles/24_11_29-1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -803,7 +805,7 @@ CMakeFiles/24_11_29-1.dir/clean:
 CMakeFiles/24_11_5-1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_5-1.dir/build.make CMakeFiles/24_11_5-1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_11_5-1.dir/build.make CMakeFiles/24_11_5-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target 24_11_5-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=48,49 "Built target 24_11_5-1"
 .PHONY : CMakeFiles/24_11_5-1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -829,12 +831,12 @@ CMakeFiles/24_11_5-1.dir/clean:
 CMakeFiles/24_9_10-1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_10-1.dir/build.make CMakeFiles/24_9_10-1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_10-1.dir/build.make CMakeFiles/24_9_10-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target 24_9_10-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=50 "Built target 24_9_10-1"
 .PHONY : CMakeFiles/24_9_10-1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/24_9_10-1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/24_9_10-1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/24_9_10-1.dir/rule
@@ -855,7 +857,7 @@ CMakeFiles/24_9_10-1.dir/clean:
 CMakeFiles/24_9_14-1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_14-1.dir/build.make CMakeFiles/24_9_14-1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_14-1.dir/build.make CMakeFiles/24_9_14-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target 24_9_14-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target 24_9_14-1"
 .PHONY : CMakeFiles/24_9_14-1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -881,7 +883,7 @@ CMakeFiles/24_9_14-1.dir/clean:
 CMakeFiles/24_9_23-1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_23-1.dir/build.make CMakeFiles/24_9_23-1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_23-1.dir/build.make CMakeFiles/24_9_23-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target 24_9_23-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target 24_9_23-1"
 .PHONY : CMakeFiles/24_9_23-1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -907,7 +909,7 @@ CMakeFiles/24_9_23-1.dir/clean:
 CMakeFiles/24_9_24-1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_24-1.dir/build.make CMakeFiles/24_9_24-1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_24-1.dir/build.make CMakeFiles/24_9_24-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target 24_9_24-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target 24_9_24-1"
 .PHONY : CMakeFiles/24_9_24-1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -933,7 +935,7 @@ CMakeFiles/24_9_24-1.dir/clean:
 CMakeFiles/24_9_3-1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_3-1.dir/build.make CMakeFiles/24_9_3-1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_3-1.dir/build.make CMakeFiles/24_9_3-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target 24_9_3-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target 24_9_3-1"
 .PHONY : CMakeFiles/24_9_3-1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -959,7 +961,7 @@ CMakeFiles/24_9_3-1.dir/clean:
 CMakeFiles/24_9_4-1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_4-1.dir/build.make CMakeFiles/24_9_4-1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_4-1.dir/build.make CMakeFiles/24_9_4-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target 24_9_4-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target 24_9_4-1"
 .PHONY : CMakeFiles/24_9_4-1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -985,7 +987,7 @@ CMakeFiles/24_9_4-1.dir/clean:
 CMakeFiles/24_9_4-2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_4-2.dir/build.make CMakeFiles/24_9_4-2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_4-2.dir/build.make CMakeFiles/24_9_4-2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target 24_9_4-2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target 24_9_4-2"
 .PHONY : CMakeFiles/24_9_4-2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1011,7 +1013,7 @@ CMakeFiles/24_9_4-2.dir/clean:
 CMakeFiles/24_9_4-3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_4-3.dir/build.make CMakeFiles/24_9_4-3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_4-3.dir/build.make CMakeFiles/24_9_4-3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=65,66 "Built target 24_9_4-3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target 24_9_4-3"
 .PHONY : CMakeFiles/24_9_4-3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1037,7 +1039,7 @@ CMakeFiles/24_9_4-3.dir/clean:
 CMakeFiles/24_9_5-1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_5-1.dir/build.make CMakeFiles/24_9_5-1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_5-1.dir/build.make CMakeFiles/24_9_5-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=67,68 "Built target 24_9_5-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=65,66 "Built target 24_9_5-1"
 .PHONY : CMakeFiles/24_9_5-1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1063,7 +1065,7 @@ CMakeFiles/24_9_5-1.dir/clean:
 CMakeFiles/24_9_7-1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_7-1.dir/build.make CMakeFiles/24_9_7-1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_7-1.dir/build.make CMakeFiles/24_9_7-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=69,70 "Built target 24_9_7-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=67,68 "Built target 24_9_7-1"
 .PHONY : CMakeFiles/24_9_7-1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1089,7 +1091,7 @@ CMakeFiles/24_9_7-1.dir/clean:
 CMakeFiles/24_9_8-1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_8-1.dir/build.make CMakeFiles/24_9_8-1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_8-1.dir/build.make CMakeFiles/24_9_8-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=71,72 "Built target 24_9_8-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=69,70 "Built target 24_9_8-1"
 .PHONY : CMakeFiles/24_9_8-1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1115,7 +1117,7 @@ CMakeFiles/24_9_8-1.dir/clean:
 CMakeFiles/24_9_8-2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_8-2.dir/build.make CMakeFiles/24_9_8-2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_8-2.dir/build.make CMakeFiles/24_9_8-2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=73,74 "Built target 24_9_8-2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=71,72 "Built target 24_9_8-2"
 .PHONY : CMakeFiles/24_9_8-2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1141,7 +1143,7 @@ CMakeFiles/24_9_8-2.dir/clean:
 CMakeFiles/24_9_8-3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_8-3.dir/build.make CMakeFiles/24_9_8-3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_8-3.dir/build.make CMakeFiles/24_9_8-3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=75,76 "Built target 24_9_8-3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=73,74 "Built target 24_9_8-3"
 .PHONY : CMakeFiles/24_9_8-3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1167,7 +1169,7 @@ CMakeFiles/24_9_8-3.dir/clean:
 CMakeFiles/24_9_9-2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_9-2.dir/build.make CMakeFiles/24_9_9-2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/24_9_9-2.dir/build.make CMakeFiles/24_9_9-2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=77,78 "Built target 24_9_9-2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=75,76 "Built target 24_9_9-2"
 .PHONY : CMakeFiles/24_9_9-2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1193,7 +1195,7 @@ CMakeFiles/24_9_9-2.dir/clean:
 CMakeFiles/25_1_10-1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/25_1_10-1.dir/build.make CMakeFiles/25_1_10-1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/25_1_10-1.dir/build.make CMakeFiles/25_1_10-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=79,80 "Built target 25_1_10-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=77,78 "Built target 25_1_10-1"
 .PHONY : CMakeFiles/25_1_10-1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1219,7 +1221,7 @@ CMakeFiles/25_1_10-1.dir/clean:
 CMakeFiles/25_1_10-2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/25_1_10-2.dir/build.make CMakeFiles/25_1_10-2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/25_1_10-2.dir/build.make CMakeFiles/25_1_10-2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=81,82 "Built target 25_1_10-2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=79,80 "Built target 25_1_10-2"
 .PHONY : CMakeFiles/25_1_10-2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1245,7 +1247,7 @@ CMakeFiles/25_1_10-2.dir/clean:
 CMakeFiles/25_1_10-3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/25_1_10-3.dir/build.make CMakeFiles/25_1_10-3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/25_1_10-3.dir/build.make CMakeFiles/25_1_10-3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=83,84 "Built target 25_1_10-3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=81,82 "Built target 25_1_10-3"
 .PHONY : CMakeFiles/25_1_10-3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1263,6 +1265,32 @@ CMakeFiles/25_1_10-3.dir/rule: cmake_check_build_system
 CMakeFiles/25_1_10-3.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/25_1_10-3.dir/build.make CMakeFiles/25_1_10-3.dir/clean
 .PHONY : CMakeFiles/25_1_10-3.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/25_1_10-4.dir
+
+# All Build rule for target.
+CMakeFiles/25_1_10-4.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/25_1_10-4.dir/build.make CMakeFiles/25_1_10-4.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/25_1_10-4.dir/build.make CMakeFiles/25_1_10-4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles --progress-num=83,84 "Built target 25_1_10-4"
+.PHONY : CMakeFiles/25_1_10-4.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/25_1_10-4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/25_1_10-4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xuxiao/CLionProjects/cLangLearn/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/25_1_10-4.dir/rule
+
+# Convenience name for target.
+25_1_10-4: CMakeFiles/25_1_10-4.dir/rule
+.PHONY : 25_1_10-4
+
+# clean rule for target.
+CMakeFiles/25_1_10-4.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/25_1_10-4.dir/build.make CMakeFiles/25_1_10-4.dir/clean
+.PHONY : CMakeFiles/25_1_10-4.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/25_1_4-1.dir
