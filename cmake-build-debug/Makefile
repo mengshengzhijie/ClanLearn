@@ -676,6 +676,19 @@ depend:
 .PHONY : 25_1_10-4/fast
 
 #=============================================================================
+# Target rules for targets named 25_1_10-5
+
+# Build rule for target.
+25_1_10-5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 25_1_10-5
+.PHONY : 25_1_10-5
+
+# fast build rule for target.
+25_1_10-5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/25_1_10-5.dir/build.make CMakeFiles/25_1_10-5.dir/build
+.PHONY : 25_1_10-5/fast
+
+#=============================================================================
 # Target rules for targets named 25_1_4-1
 
 # Build rule for target.
@@ -1811,6 +1824,30 @@ src/learn/25_1_10-4.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/25_1_10-4.dir/build.make CMakeFiles/25_1_10-4.dir/src/learn/25_1_10-4.c.s
 .PHONY : src/learn/25_1_10-4.c.s
 
+src/learn/25_1_10-5.o: src/learn/25_1_10-5.c.o
+.PHONY : src/learn/25_1_10-5.o
+
+# target to build an object file
+src/learn/25_1_10-5.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/25_1_10-5.dir/build.make CMakeFiles/25_1_10-5.dir/src/learn/25_1_10-5.c.o
+.PHONY : src/learn/25_1_10-5.c.o
+
+src/learn/25_1_10-5.i: src/learn/25_1_10-5.c.i
+.PHONY : src/learn/25_1_10-5.i
+
+# target to preprocess a source file
+src/learn/25_1_10-5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/25_1_10-5.dir/build.make CMakeFiles/25_1_10-5.dir/src/learn/25_1_10-5.c.i
+.PHONY : src/learn/25_1_10-5.c.i
+
+src/learn/25_1_10-5.s: src/learn/25_1_10-5.c.s
+.PHONY : src/learn/25_1_10-5.s
+
+# target to generate assembly for a file
+src/learn/25_1_10-5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/25_1_10-5.dir/build.make CMakeFiles/25_1_10-5.dir/src/learn/25_1_10-5.c.s
+.PHONY : src/learn/25_1_10-5.c.s
+
 src/learn/25_1_4-1.o: src/learn/25_1_4-1.c.o
 .PHONY : src/learn/25_1_4-1.o
 
@@ -2054,6 +2091,7 @@ help:
 	@echo "... 25_1_10-2"
 	@echo "... 25_1_10-3"
 	@echo "... 25_1_10-4"
+	@echo "... 25_1_10-5"
 	@echo "... 25_1_4-1"
 	@echo "... 25_1_5-1"
 	@echo "... 25_1_5-2"
@@ -2191,6 +2229,9 @@ help:
 	@echo "... src/learn/25_1_10-4.o"
 	@echo "... src/learn/25_1_10-4.i"
 	@echo "... src/learn/25_1_10-4.s"
+	@echo "... src/learn/25_1_10-5.o"
+	@echo "... src/learn/25_1_10-5.i"
+	@echo "... src/learn/25_1_10-5.s"
 	@echo "... src/learn/25_1_4-1.o"
 	@echo "... src/learn/25_1_4-1.i"
 	@echo "... src/learn/25_1_4-1.s"
