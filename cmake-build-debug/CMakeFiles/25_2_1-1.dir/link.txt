@@ -1,0 +1,1 @@
+/usr/bin/cc -g "CMakeFiles/25_2_1-1.dir/src/learn/25_2_1-1.c.o" -o 25_2_1-1  -lm
