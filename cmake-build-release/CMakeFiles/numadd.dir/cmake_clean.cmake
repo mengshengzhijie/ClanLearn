@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/numadd.dir/link.d"
   "CMakeFiles/numadd.dir/src/learn/numadd.c.o"
   "CMakeFiles/numadd.dir/src/learn/numadd.c.o.d"
   "numadd"

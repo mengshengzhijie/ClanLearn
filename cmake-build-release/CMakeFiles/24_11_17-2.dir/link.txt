@@ -1,1 +1,1 @@
-/usr/bin/cc -O3 -DNDEBUG "CMakeFiles/24_11_17-2.dir/src/learn/24_11_17-2.c.o" -o 24_11_17-2  -lm
+/usr/bin/cc -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/24_11_17-2.dir/link.d "CMakeFiles/24_11_17-2.dir/src/learn/24_11_17-2.c.o" -o 24_11_17-2  -lm

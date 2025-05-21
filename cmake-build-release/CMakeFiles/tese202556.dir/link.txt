@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/tese202556.dir/link.d CMakeFiles/tese202556.dir/src/learn/tese202556.c.o -o tese202556  -lm

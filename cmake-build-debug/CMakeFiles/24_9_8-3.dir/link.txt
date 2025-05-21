@@ -1,1 +1,1 @@
-/usr/bin/cc -g "CMakeFiles/24_9_8-3.dir/src/learn/24_9_8-3.c.o" -o 24_9_8-3  -lm
+/usr/bin/cc -g -Wl,--dependency-file=CMakeFiles/24_9_8-3.dir/link.d "CMakeFiles/24_9_8-3.dir/src/learn/24_9_8-3.c.o" -o 24_9_8-3  -lm

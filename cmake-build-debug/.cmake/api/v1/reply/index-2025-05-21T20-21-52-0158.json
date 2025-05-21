@@ -11,22 +11,22 @@
 			"cmake" : "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake",
 			"cpack" : "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cpack",
 			"ctest" : "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/ctest",
-			"root" : "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30"
+			"root" : "/home/xuxiao/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.31"
 		},
 		"version" : 
 		{
 			"isDirty" : false,
 			"major" : 3,
-			"minor" : 30,
-			"patch" : 5,
-			"string" : "3.30.5",
+			"minor" : 31,
+			"patch" : 6,
+			"string" : "3.31.6",
 			"suffix" : ""
 		}
 	},
 	"objects" : 
 	[
 		{
-			"jsonFile" : "codemodel-v2-0d7edef84d9c62bd10c8.json",
+			"jsonFile" : "codemodel-v2-9cca21ac6956a52d0797.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
@@ -35,7 +35,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cache-v2-ac8ea5e6aae1ccd84d7b.json",
+			"jsonFile" : "cache-v2-1001e89eafc2cc8a421a.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -44,7 +44,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cmakeFiles-v1-2cf743c3913f00a32bdf.json",
+			"jsonFile" : "cmakeFiles-v1-86343d09918beb82837c.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -66,7 +66,7 @@
 	{
 		"cache-v2" : 
 		{
-			"jsonFile" : "cache-v2-ac8ea5e6aae1ccd84d7b.json",
+			"jsonFile" : "cache-v2-1001e89eafc2cc8a421a.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -76,7 +76,7 @@
 		},
 		"cmakeFiles-v1" : 
 		{
-			"jsonFile" : "cmakeFiles-v1-2cf743c3913f00a32bdf.json",
+			"jsonFile" : "cmakeFiles-v1-86343d09918beb82837c.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -86,7 +86,7 @@
 		},
 		"codemodel-v2" : 
 		{
-			"jsonFile" : "codemodel-v2-0d7edef84d9c62bd10c8.json",
+			"jsonFile" : "codemodel-v2-9cca21ac6956a52d0797.json",
 			"kind" : "codemodel",
 			"version" : 
 			{

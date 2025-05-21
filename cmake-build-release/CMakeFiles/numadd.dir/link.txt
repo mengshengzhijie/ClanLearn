@@ -1,1 +1,1 @@
-/usr/bin/cc -O3 -DNDEBUG CMakeFiles/numadd.dir/src/learn/numadd.c.o -o numadd  -lm
+/usr/bin/cc -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/numadd.dir/link.d CMakeFiles/numadd.dir/src/learn/numadd.c.o -o numadd  -lm

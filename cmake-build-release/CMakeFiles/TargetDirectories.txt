@@ -53,9 +53,12 @@
 /home/xuxiao/CLionProjects/cLangLearn/cmake-build-release/CMakeFiles/25_1_5-2.dir
 /home/xuxiao/CLionProjects/cLangLearn/cmake-build-release/CMakeFiles/25_1_8-1.dir
 /home/xuxiao/CLionProjects/cLangLearn/cmake-build-release/CMakeFiles/25_2_1-1.dir
+/home/xuxiao/CLionProjects/cLangLearn/cmake-build-release/CMakeFiles/25_5_6.dir
+/home/xuxiao/CLionProjects/cLangLearn/cmake-build-release/CMakeFiles/25_5_8-1.dir
 /home/xuxiao/CLionProjects/cLangLearn/cmake-build-release/CMakeFiles/C.dir
 /home/xuxiao/CLionProjects/cLangLearn/cmake-build-release/CMakeFiles/Cc.dir
 /home/xuxiao/CLionProjects/cLangLearn/cmake-build-release/CMakeFiles/P1_2.dir
 /home/xuxiao/CLionProjects/cLangLearn/cmake-build-release/CMakeFiles/numadd.dir
+/home/xuxiao/CLionProjects/cLangLearn/cmake-build-release/CMakeFiles/tese202556.dir
 /home/xuxiao/CLionProjects/cLangLearn/cmake-build-release/CMakeFiles/edit_cache.dir
 /home/xuxiao/CLionProjects/cLangLearn/cmake-build-release/CMakeFiles/rebuild_cache.dir

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/24_9_3-1.dir/link.d"
   "24_9_3-1"
   "24_9_3-1.pdb"
   "CMakeFiles/24_9_3-1.dir/src/learn/24_9_3-1.c.o"

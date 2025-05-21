@@ -1,1 +1,1 @@
-/usr/bin/cc -g CMakeFiles/numadd.dir/src/learn/numadd.c.o -o numadd  -lm
+/usr/bin/cc -g -Wl,--dependency-file=CMakeFiles/numadd.dir/link.d CMakeFiles/numadd.dir/src/learn/numadd.c.o -o numadd  -lm

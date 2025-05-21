@@ -1,1 +1,1 @@
-/usr/bin/cc -O3 -DNDEBUG CMakeFiles/C.dir/src/learn/C.c.o -o C  -lm
+/usr/bin/cc -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/C.dir/link.d CMakeFiles/C.dir/src/learn/C.c.o -o C  -lm
